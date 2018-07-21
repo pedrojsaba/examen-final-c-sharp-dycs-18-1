@@ -20,6 +20,7 @@ namespace WebApi.Controllers
             return _student.View();
         }
 
+
         [HttpGet]
         [Route("api/students/{id}/calculate")]
         public IEnumerable<string> Calculate(int id)
